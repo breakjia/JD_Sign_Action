@@ -8,7 +8,7 @@ on:
   #   branches:
   #     - master
   schedule:
-    - cron: 0 16 * * *
+    - cron: 0 15 * * *
   watch:
     types: started
     
@@ -43,3 +43,5 @@ jobs:
               with:
                 name: result
                 path: ./*.txt
+
+
